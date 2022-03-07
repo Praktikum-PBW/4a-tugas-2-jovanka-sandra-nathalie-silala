@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <style>
+    div {
+    border-radius: 5px;
+    padding-left: 200px;
+    padding-right: 200px;
+   }
+ input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } 
+    </style>
+
+</head>
+<body >
+    <div>
+    <h1 style="text-align: center;">Pendaftaran Mahasiswa Baru</h1>
+    <form action="#" method="get">
+        <label for="npm">NPM (Nomor Pokok Mahasiswa)</label>
+        <br>
+        <br>
+        <textarea name="npm" id="npm" cols="150" rows="1" placeholder="Masukan NPM Anda"></textarea>
+        <br>
+        <br>
+        <br>
+        <label for="nama lengkap">Nama Lengkap</label>
+        <br>
+        <br>
+        <textarea name="nama" id="nama" cols="150" rows="1" placeholder="Masukan Nama Anda"></textarea>
+        <br>
+        <br>
+        <br>
+        <label for="alamat">Alamat</label>
+        <br>
+        <br>
+        <textarea name="alamat" id="alamat" cols="150" rows="3" placeholder="Masukan Alamat Anda"></textarea>
+        <br>
+        <br>
+        <br>
+        <label for="jk">Jenis Kelamin</label>
+        <br>
+        <br>
+        <input type="radio" name="jk" id="jk" value="Laki-Laki"> Laki-Laki
+        <br>
+        <input type="radio" name="jk" id="jk" value="Perempuan"> Perempuan
+        <br>
+        <br>
+        <label for="program studi">Program Studi</label>
+        <br>
+        <br>
+        <select name="jurusan" id="Jurusan">
+            <option value="TI">Teknik Informatika</option>
+            <option value="SI">Sistem Informasi</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>

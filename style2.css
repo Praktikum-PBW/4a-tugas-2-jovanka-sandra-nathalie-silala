@@ -1,0 +1,7 @@
+table{
+    background-color: azure;
+    border-collapse: initial;
+}
+form, table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
